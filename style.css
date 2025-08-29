@@ -1,5 +1,5 @@
 :root {
---cor-fundo:#f3f3f3;
+--cor-fundo:#ffffff;
 --cor-principal:#6b706f;
 --cor-secundaria:#0fb89b;
 --cor-texto:#000000b0;
@@ -15,3 +15,12 @@ body{
     align-items: center;
     height: 100vh;
 }
+
+ .caixa-prinvipal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    
+ }
